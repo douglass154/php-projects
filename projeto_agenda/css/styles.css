@@ -1,0 +1,177 @@
+
+.navbar {
+   padding: 8px 30px;
+}
+
+.navbar-brand {
+   padding: 8px 12px;
+}
+
+.navbar-brand img {
+   width: 50px;
+}
+
+.navbar-nav {
+   flex-direction: row;
+}
+
+.navbar-nav a {
+   padding: 8px;
+}
+
+#main-title {
+   text-align: center;
+   margin: 15px 0 30px;
+}
+
+
+/* HOME */
+#contacts-table {
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+#contacts-table thead {
+   color: #fff;
+   background-color: #007BFF;
+}
+
+.actions {
+   text-align: right;
+   width: 150px;
+}
+
+.col-id {
+   font-weight: bold;
+}
+
+.actions i {
+   font-size: 18px;
+   margin-right: 5px;
+}
+
+.check-icon {
+   color: #1e7d34;
+}
+
+.edit-icon {
+   color: #007bff;
+}
+
+.delete-icon {
+   color: #bb2130;
+}
+
+.delete-form {
+   display: inline-block;
+}
+
+.delete-btn {
+   background-color: transparent;
+   border: none;
+   padding: 0;
+}
+
+#empty-list-text {
+   text-align: center;
+}
+
+#msg {
+   color: #155724;
+   background-color: #d4edda;
+   border: 1px solid #c3e6db;
+   padding: 10px;
+   text-align: center;
+   max-width: 500px;
+   margin: 0 auto;
+   margin-top: 30px;
+}
+
+
+/* SHOW / CONTATO ÚNICO */
+#view-contact-container {
+   max-width: 500px;
+   margin: 0 auto;
+}
+
+.view-grid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-info-container,
+.view-grid {
+   border: 1px solid #212529;
+}
+
+.contact-info-container p {
+   padding: 10px;
+}
+
+.contact-info {
+   background-color: #212529;
+   color: #fff;
+}
+
+#obs-container {
+   grid-column: 1/3;
+}
+
+.bold {
+   font-weight: bold;
+}
+
+#back-link-container {
+   display: block;
+   max-width: 500px;
+   margin: 30px auto 0;
+}
+
+#back-link {
+   border: 1px solid #007bff;
+   color: #007BFF;
+   border-radius: 4px;
+   padding: 5px 15px;
+   text-decoration: none;
+   transition: background-color .5s;
+}
+
+#back-link:hover {
+   background-color: #0167d4;
+   color: #fff;
+}
+
+
+/* CREATE CONTACTS */
+#create-form,
+#edit-form {
+   max-width: 500px;
+   margin: 0 auto;
+}
+
+#create-form div,
+#edit-form div {
+   margin: 15px 0;
+}
+
+#create-form .form-control
+#edit-form .form-control {
+   resize: none;
+}
+
+
+/* MOBILE */
+@media (max-width: 480px) {
+   .navbar {
+      justify-content: space-between;
+      padding: 8px 10px;
+   }
+
+   #home-link {
+      display: none;
+   }
+
+   .hidden-email {
+      display: none;
+   }
+}
