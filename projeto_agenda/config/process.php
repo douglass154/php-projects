@@ -92,7 +92,7 @@
       }
       
       // REDIRECT HOME
-      header("Location:../index.php");
+      header("Location:". $BASE_URL ."../index.php");
 
    } else {
       // SELEÇÃO DE DADOS
