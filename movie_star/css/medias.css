@@ -1,0 +1,151 @@
+@media(max-width: 1471px) {
+   .dashboard-movie-infos td {
+      vertical-align: middle;
+   }
+
+   .actions-column {
+      min-width: 140px;
+   }
+
+   .edit-btn,
+   .delete-btn {
+      width: 100px;
+   }
+}
+
+@media(max-width: 1278px) {
+   /* MOVIE */
+   .movies-details span {
+      padding-bottom: 8px;
+   }
+
+   .movie-container iframe {
+      max-width: 100% !important;
+   }
+
+   #reviews-container {
+      padding-left: 0;
+      padding-right: 0;
+   }
+
+   #review-form-container select,
+   #review-form-container textarea {
+      width: 100%;
+   }
+
+   .empty-list {
+      margin-top: 20px;
+   }
+
+   .msg {
+      width: 100%;
+   }
+
+   .review {
+      padding: 0 15px;
+   }
+}
+
+@media(max-width: 991px) {
+   .navbar-toggler {
+      position: absolute;
+      right: 5%;
+      top: 22px;
+   }
+
+   
+   /* NEW MOVIE */
+   .new-movie-container {
+      width: 50%;
+      margin: 0 auto;
+   }
+
+
+   /* HOME */
+   .movie-card {
+      width: 31%;
+   }
+
+   /* DASHBOARD */
+   .actions-column {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      align-items: center;
+   }
+
+   .dashboard-movie-infos td:nth-child(1) {
+      width: 10%;
+   }
+
+   .dashboard-movie-infos td {
+      width: 55%;
+   }
+}
+
+@media(max-width: 767px) {
+   #search-form {
+      width: 100%;
+      margin-left: 0;
+   }
+
+   /* NEW MOVIE */
+   .new-movie-container {
+      width: 100%;
+   }
+
+
+   /* HOME */
+   .movie-card {
+      width: 48%;
+   }
+
+
+   /* MOVIE */
+   .movies-details {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .pipe {
+      display: none;
+   }
+
+   .movie-image-container,
+   #img-edit-movie {
+      height: 600px;
+   }
+
+   /* EDIT MOVIE */
+   #img-edit-movie {
+      margin-top: 1.2rem;
+   }
+}
+
+@media(max-width: 450px) {
+   #main-container {
+      padding: 20px;
+   }
+
+
+   /* HOME */
+   .section-title {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+   }
+
+   .movies-container {
+      padding: 0 15px;
+   }
+
+   .movie-card {
+      width: 100%;
+   }
+
+
+   /* DASHBOARD */
+   #movies-dashboard {
+      padding: 0;
+   }
+
+}
